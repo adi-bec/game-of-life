@@ -40,7 +40,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.11</version>
                 <configuration>
+		<!-- Adriana Bec forums suggest to skip this line to get the cobertura reports working
                     <skip>true</skip>
+		    -->
                 </configuration>
                 <executions>
                     <execution>
